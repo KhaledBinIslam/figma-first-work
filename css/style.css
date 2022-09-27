@@ -1,0 +1,86 @@
+
+.carousel-caption h5 {
+    font-size: 30px;
+    margin-top: -42%;
+}
+
+.carousel-caption h2 {
+    border: 1px solid #fff;
+    font-size: 60px;
+}
+.carousel-caption span {
+    color: #87D37B;
+}
+.carousel-caption h6 {
+    font-size: 22px;
+}
+.about-section h6:hover{
+    color:#87D37B ;
+}
+
+
+#web-i-tag {
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    color: #999999;
+
+}
+#web-i-tag:hover{
+    color:#87D37B ;
+}
+
+
+
+/* service-section */
+
+#service-section {
+    padding-bottom: 7%;
+}
+
+
+/* contact-section */
+#contact-section-i-tag{
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+    color: #999999;
+}
+#contact-section-i-tag:hover{
+    color:#87D37B ;
+}
+.contact-section:hover{
+    color:#87D37B ;
+}
+
+.login-section input{
+    display: inline-block;
+ 
+}
+
+.login-button{
+    background-color: #87D37B;
+    border: none;
+    border-radius: 3px;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    height: 100%;
+
+}
+#atag {
+    background-color: #345396;
+    width: 400px;
+}
+
+#facebook{
+    font-size: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #345396;
+    color: #fff;
+    
+}
