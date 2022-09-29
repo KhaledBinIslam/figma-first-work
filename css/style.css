@@ -1,36 +1,65 @@
+.black{
+    position:fixed;
+    top:0;
+    background:#333;
+    width:100%;
+    height:50px;
+    
+  }
+  .black ul{
+    list-style-type:none;
+    padding:0;
+  }
+  
+  .black ul li{
+    display:inline-block;
+    width:100px;
+    color:red;
+  }
+  
+  .blue{
+    position:fixed;
+    top:0;
+    background:blue;
+    width:100%;
+    height:50px;
+  }
 
-.carousel-caption h5 {
+*{
+    color: #999999;
+}
+.carousel-caption h5{
     font-size: 30px;
     margin-top: -42%;
+    color: #fff;
 }
 
 .carousel-caption h2 {
     border: 1px solid #fff;
     font-size: 60px;
+    color: #fff;
 }
 .carousel-caption span {
     color: #87D37B;
 }
 .carousel-caption h6 {
     font-size: 22px;
+    color: #fff;
+    font-weight: 80;
 }
-.about-section h6:hover{
-    color:#87D37B ;
+.about-section:hover {
+    color: #87D37B;
 }
-
-
-#web-i-tag {
+.about-section i {
     justify-content: center;
     display: flex;
     font-size: 50px;
     color: #999999;
-
-}
-#web-i-tag:hover{
-    color:#87D37B ;
 }
 
-
+/* #web-i-tag:hover {
+    color: #87D37B;
+} */
 
 /* service-section */
 
@@ -40,47 +69,65 @@
 
 
 /* contact-section */
-#contact-section-i-tag{
-    justify-content: center;
-    display: flex;
-    font-size: 100px;
+.contact-section a {
     color: #999999;
-}
-#contact-section-i-tag:hover{
-    color:#87D37B ;
-}
-.contact-section:hover{
-    color:#87D37B ;
+    text-decoration: none;
+    padding-left: 30%;
 }
 
-.login-section input{
+.contact-section i h6 p:hover{
+    color: #87D37B;
+}
+
+.contact-section i{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.login-section input {
     display: inline-block;
- 
+
+}
+::placeholder{
+    font-style: italic;
+    font-weight: 5px;
+    padding-left: 5%;
+}
+textarea{
+    font-style: italic;
+    
 }
 
-.login-button{
+.login-button {
     background-color: #87D37B;
     border: none;
     border-radius: 3px;
+    color: #fff;
+    width: 25%;
+    height: 22%;
 }
 
 /* footer */
-footer{
+footer {
     background-color: black;
-    height: 100%;
+    height: 35px;
 
 }
-#atag {
-    background-color: #345396;
-    width: 400px;
+.fa-facebook{
+    width: 25px;
+    padding-top: 10px;
+
 }
 
-#facebook{
-    font-size: 30px;
-    margin: 0 auto;
-    justify-content: center;
-    text-align: center;
-    background-color: #345396;
+.facebook a {
+    width: 10px;
     color: #fff;
-    
+    background-color: #3C599B;
+    border-radius: 100px;
+}
+
+
+.copyright{
+    font-size: 8px;
 }
