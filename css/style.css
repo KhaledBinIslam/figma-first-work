@@ -1,53 +1,49 @@
-.black{
-    position:fixed;
-    top:0;
-    background:#333;
-    width:100%;
-    height:50px;
-    
-  }
-  .black ul{
-    list-style-type:none;
-    padding:0;
-  }
-  
-  .black ul li{
-    display:inline-block;
-    width:100px;
-    color:red;
-  }
-  
-  .blue{
-    position:fixed;
-    top:0;
-    background:blue;
-    width:100%;
-    height:50px;
-  }
 
 *{
     color: #999999;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+.bgColor{
+    background-color: rgba(0, 0, 0, 0.692); 
+}
+.navbar-nav li a:hover{
+    color: #87D37B !important;
+}
 .carousel-caption h5{
-    font-size: 30px;
-    margin-top: -42%;
+   font-size:48px;
+    margin-top: -46%;
     color: #fff;
+    font-weight: 400;
+    margin-left: 5%;
+
 }
 
 .carousel-caption h2 {
-    border: 1px solid #fff;
-    font-size: 60px;
     color: #fff;
+    width: 73%;
+    height: 120px;
+    margin-left: 16%;
+    justify-content: center;
+    border: 2px solid;
+    font-size: 100px;
+
 }
 .carousel-caption span {
     color: #87D37B;
 }
 .carousel-caption h6 {
-    font-size: 22px;
+    font-size: 37px;
     color: #fff;
-    font-weight: 80;
+    font-weight: 300;
+    margin-left: 5%;
 }
-.about-section:hover {
+.about-section i:hover {
+    color: #87D37B;
+}
+.about-section h6:hover {
     color: #87D37B;
 }
 .about-section i {
@@ -75,7 +71,19 @@
     padding-left: 30%;
 }
 
-.contact-section i h6 p:hover{
+.contact-section i:hover{
+    color: #87D37B;
+}
+
+.contact-section h6:hover{
+    color: #87D37B;
+}
+
+.contact-section a:hover{
+    color: #87D37B;
+}
+
+.contact-section p:hover{
     color: #87D37B;
 }
 
@@ -84,9 +92,10 @@
     justify-content: center;
     font-size: 100px;
 }
-
-.login-section input {
+ .form-group input {
     display: inline-block;
+    width: 80% !important;
+    margin-left: 15% !important;
 
 }
 ::placeholder{
@@ -96,9 +105,16 @@
 }
 textarea{
     font-style: italic;
+    padding-top: 30px;
+    color: #999999 !important;
+    padding-top: 6% !important;
+    padding-left: 5% !important;
+    width: 80% !important;
+
     
 }
 
+ 
 .login-button {
     background-color: #87D37B;
     border: none;
@@ -106,25 +122,69 @@ textarea{
     color: #fff;
     width: 25%;
     height: 22%;
+    margin-top: 4% !important;
 }
 
 /* footer */
 footer {
     background-color: black;
-    height: 35px;
+    height: 54px;
 
 }
+
 .fa-facebook{
-    width: 25px;
-    padding-top: 10px;
-
+    width: 33px;
+    height: 33px;
+    background-color: #3C599B;
+    border-radius: 50%;
+    color: #fff;
+    padding-top:9px;
+    padding-left: 1px;
+    margin-top: 11px;
+}
+.fa-google-plus{
+    width: 34px;
+    background-color: #CD3B29;
+    border-radius: 180px;
+    height: 33px;
+    color: #fff;
+    padding-top:9px;
+    padding-left: 1px;
+}
+.fa-linkedin{
+    width: 34px;
+    height: 33px;
+    margin-top: 1px;
+    background-color: #1988BE;
+    border-radius: 50%;
+    color: #fff;
+    padding-top:9px;
+    padding-left: 1px;
+}
+.fa-twitter{
+    width: 34px;
+    height: 33px;
+    background-color: #5EAADE;
+    border-radius: 50%;
+    color: #fff;
+    padding-top:9px;
+}
+.fa-skype{
+    width: 34px;
+    height: 33px;
+    background-color: #5EAADE;
+    border-radius: 50%;
+    color: #fff;
+    padding-top:10px;
 }
 
-.facebook a {
-    width: 10px;
+.fa-dribbble{
+    width: 34px;
+    height: 33px;
+    background-color: #03A651;
+    border-radius: 50%;
     color: #fff;
-    background-color: #3C599B;
-    border-radius: 100px;
+    padding-top:9px;
 }
 
 

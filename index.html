@@ -6,11 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Creative Buisness</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style-responsive.css">
-    <link rel="stylesheet" href="./css/fontawesome.min.css">
-
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- fontawesome-4 link -->
@@ -18,6 +13,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- bootstraplink-5 -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-responsive.css">
 </head>
 
 <body>
@@ -27,15 +26,15 @@
 
 
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg">
             <div class="container">
-                <a class="navbar-brand ms-5" href="/"><img src="./image/logo.png" alt="" /></a>
+                <a class="navbar-brand ms-5" href="/"><img src="./image/logo.png" alt="./image/logo.png" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse black" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item me-5">
                             <a class="nav-link active text-white" href="#">HOME</a>
@@ -61,7 +60,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./image/banner.jpg" class="d-block w-100" alt="./image/banner.jpg">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption sm md lg xl">
                         <h5>CREATIVE BUISNESS SPECIALIST</h5>
                         <h2>WE ARE <span> ONU </span> </h2>
                         <h6>WEB DESIGN/ ONE PAGE/ CREATIVE</h6>
@@ -117,40 +116,48 @@
 
 
         <div class="row pt-4">
-            <div class="about-section col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <i class="fa fa-laptop " aria-hidden="true"></i>
-                <h6 class="text-center pt-3">WEB DESIGN</h6>
-                <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero minima
-                    magnam culpa!</P>
-
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="about-section">
+                    <i class="fa fa-laptop " aria-hidden="true"></i>
+                    <h6 class="text-center pt-3">WEB DESIGN</h6>
+                    <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero
+                        minima
+                        magnam culpa!</P>
+                </div>
             </div>
 
-            <div class=" about-section col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <i class="fa fa-file-o" aria-hidden="true"></i>
-                <h6 class="text-center pt-3">WEB DEVELOPER</h6>
-                <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero minima
-                    magnam culpa!</P>
-
-            </div>
-
-
-
-            <div class=" about-section col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <i class="fa fa-windows" aria-hidden="true"></i>
-                <h6 class="text-center pt-3">DIGITAL MARKETING</h6>
-                <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero minima
-                    magnam culpa!</P>
-
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="about-section">
+                    <i class="fa fa-file-o" aria-hidden="true"></i>
+                    <h6 class="text-center pt-3">WEB DEVELOPER</h6>
+                    <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero
+                        minima
+                        magnam culpa!</P>
+                </div>
             </div>
 
 
 
-            <div class="about-section col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <i id="web-i-tag" class="fa fa-book" aria-hidden="true"></i>
-                <h6 class="text-center pt-3">WEB DEVELOPMENT</h6>
-                <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero minima
-                    magnam culpa!</P>
+            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="about-section">
+                    <i class="fa fa-windows" aria-hidden="true"></i>
+                    <h6 class="text-center pt-3">DIGITAL MARKETING</h6>
+                    <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero
+                        minima
+                        magnam culpa!</P>
+                </div>
+            </div>
 
+
+
+            <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="about-section">
+                    <i id="web-i-tag" class="fa fa-book" aria-hidden="true"></i>
+                    <h6 class="text-center pt-3">WEB DEVELOPMENT</h6>
+                    <P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis vero
+                        minima
+                        magnam culpa!</P>
+                </div>
             </div>
 
 
@@ -160,7 +167,7 @@
 
         </div>
     </section>
-    <!-- about section-End -->
+    <!-- about-section-End -->
 
     <!-- Service section start -->
     <section id="service-section" class="bg-light mt-5">
@@ -210,7 +217,7 @@
         <div class="row pt-4 ">
             <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6">
                 <div class="contact-section">
-                    <i  class="fa fa-phone" aria-hidden="true"></i>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
                     <h6 class="text-center pt-3">CALL US</h6>
                     <P class="text-center">+008347478547854685</P>
                 </div>
@@ -226,8 +233,8 @@
 
             <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-6">
                 <div class="contact-section">
-                    <i  class="fa fa-envelope" aria-hidden="true"></i>
-                    <h6 class="text-center pt-3">EMAIL</h6>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <h6 class="text-center pt-3 ms-1">EMAIL</h6>
                     <a href="#" class="text-center">support@gmailcom</a>
                 </div>
             </div>
@@ -239,22 +246,19 @@
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
                 <form>
                     <div class="form-group">
-                        <input type="text" class="form-control mt-3 ms-4" id="formGroupExampleInput"
-                            placeholder="Full Name">
+                        <input type="text" class="form-control mt-3" id="formGroupExampleInput" placeholder="Full Name">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control mt-3 ms-4" id="formGroupExampleInput2"
-                            placeholder="Email">
+                        <input type="text" class="form-control mt-3" id="formGroupExampleInput2" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control mt-3 ms-4" id="formGroupExampleInput2"
-                            placeholder="Phone">
+                        <input type="text" class="form-control mt-3" id="formGroupExampleInput2" placeholder="Phone">
                     </div>
                 </form>
             </div>
             <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                <textarea class="form-control ms-4 mt-3" cols="55" rows="5">Message</textarea>
-                <button class="login-button mt-2 ms-4 ">SUBMIT NOW</button>
+                <textarea class="form-control mt-3" cols="10" rows="2">Message</textarea>
+                <button class="login-button mt-2 ">SUBMIT NOW</button>
             </div>
         </div>
 
@@ -269,11 +273,12 @@
 
                 <ul>
                     <li class="list-inline-item facebook">
-                        <a href="#"><i class="fa fa-facebook bi-align-center" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     </li>
 
                     <li class="list-inline-item">
-                        <a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </a>
                     </li>
 
                     <li class="list-inline-item">
@@ -281,7 +286,7 @@
                     </li>
 
                     <li class="list-inline-item">
-                        <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class=" fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
 
                     <li class="list-inline-item">
@@ -309,8 +314,12 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+
+
     <!-- custom js file  -->
-    <script src="./js/custom.js"></script>
+    <script src="js/custom.js"></script>
+
+
 </body>
 
 </html>

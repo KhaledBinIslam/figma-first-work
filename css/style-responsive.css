@@ -1,0 +1,119 @@
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) {
+     .carousel-caption {
+         display: none;
+     }
+ }
+
+ @media (max-width: 1206px) {
+     .carousel-caption {
+         margin-top: 1%;
+         font-size: 10px;
+
+     }
+
+     .carousel-caption h5 {
+         font-size: 50px;
+         margin-left: 5%;
+     }
+
+     .carousel-caption h2 {
+         width: 80%;
+         font-size: 55px;
+         height: 100px;
+     }
+
+     .carousel-caption h6 {
+         font-size: xx-large;
+         justify-content: center;
+
+     }
+ }
+
+
+ @media (max-width: 1057px) {
+     .carousel-caption {
+         padding-top: 20%;
+
+     }
+
+     .carousel-caption h5 {
+         font-size: 32px;
+         margin-right: 15%;
+
+
+     }
+
+     .carousel-caption h2 {
+         width: 60%;
+         font-size: 48px;
+         height: 70px;
+         margin-left: 15%;
+     }
+
+     .carousel-caption h6 {
+         font-size: 20px;
+         margin-right: 15%;
+
+     }
+ }
+
+
+ @media (max-width: 991px) {
+     textarea {
+                 margin-left: 15% !important;
+                 width: 80% !important;
+             
+         }
+    .login-button{
+        margin-left: 15% !important;
+    }
+        }
+
+         @media (max-width: 887px) {
+             .carousel-caption h5 {
+                 font-size: 25px;
+                 margin-right: 15%;
+                 padding-top: 20px;
+             }
+
+             .carousel-caption h2 {
+                 width: 60%;
+                 height: 70px;
+             }
+
+             .carousel-caption h6 {
+                 font-size: 20px;
+                 margin-right: 15%;
+
+             }
+         }
+
+         @media (max-width: 703px) {
+             .carousel-caption h5 {
+                 padding-top: 25px;
+             }
+
+             .carousel-caption h2 {
+                 font-size: 42px;
+             }
+         }
+
+         @media (max-width: 627px) {
+             .carousel-caption h5 {
+                 font-size: 20px;
+                 margin-left: 10%;
+             }
+
+             .carousel-caption h2 {
+                 width: 70%;
+
+                 height: 80px;
+             }
+
+             .carousel-caption h6 {
+                 font-size: 20px;
+                 margin-right: 5%;
+
+             }
+         }
